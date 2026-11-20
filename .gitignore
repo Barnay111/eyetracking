@@ -1,0 +1,14 @@
+# Окружения и кэш
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.tmp.npz
+
+# Чужой проект без лицензии — только локально, не публикуется
+Eye-Controlled-Cursor-System/
+
+# Веса нейросети взгляда (обучены на Gaze360 — исследовательская лицензия).
+# Скачиваются скриптом eye_control/scripts/download_models.sh
+eye_control/assets/gaze_mobileone_s0.onnx
